@@ -1,0 +1,276 @@
+/* property below is a CSS reset, stops me scratching my head about why formatting is in certain places. Use classes for specific control! */
+body, div, p , ul {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+/* global attributes section */
+
+body {
+	height: auto !important;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	margin: 40vh 0 5vh 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* navigation */
+
+header {
+	border-bottom: 1px solid #111;
+}
+
+header > nav {
+	padding-bottom: 2em;
+	padding-top: 1.5em;
+	text-align: right;
+	margin-right: 1em;
+}
+
+header > div#logo > div#navToggle {
+   display: none;    
+}
+
+nav ul {
+	display: inline-block;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	color: #000;
+	text-decoration: none;
+	background-color: transparent;
+	border-bottom: transparent solid 1px;
+	padding: 0.33em 1.33em; 
+}
+
+nav li a:hover {
+	color: #7999AA;
+	border-bottom: #7999AA solid 1px;
+}
+
+.active {
+	border-bottom: #000 solid 1px;
+}
+
+/* footer */
+
+footer {
+	background-color: #333333;
+	color: white;
+	padding: 1em;
+	box-shadow:inset 0 15px 5px -16px #111;
+}
+
+footer h2 {
+	font-size: 2em;
+}
+
+footer p {
+	font-size: 1em;
+}
+
+.footerContainer {
+	text-align: center;
+	margin: 0 30% 0 30%;
+	width: 40%;
+}
+
+.footerLeft {
+	float: left;
+	text-align: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 33%;
+}
+
+.footerRight {
+	float: right;
+	text-align: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 42%;
+}
+
+.fa {
+	color: #FFF;
+	padding-right: 0.5em;
+	text-shadow: 3px 3px 5px #212020;
+}
+
+.footerRight p {
+	padding-bottom: 1em;
+}
+
+.footerBottom {
+	clear: both;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.footerLink {
+	text-decoration: none;
+	color: #7999AA;
+}
+
+/* contact box styling section */
+
+.contactUs h2 {
+	margin-bottom: 2em;
+	color: #7999AA;	
+}
+
+.contactUs p {
+	padding: 10px;
+}
+
+.form {
+	margin: 0 30% 0 30%;
+}
+
+.form label {
+	margin-left: 10px;
+	color: #7999AA;
+}
+
+input, textarea {
+	border: 1px solid #e5e5e5;
+	width: 250px;
+	color: #333333;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 2em;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+		border-color: 1px solid #c9c9c9;
+		box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+		-moz-box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+		-webkit-box-shadow: rgba(0,0,0,0.2) 0px 0px 10px;
+}
+
+.submit input {
+	width: 125px;
+	height: 40px;
+	background-color: #7999AA;
+	color: white;
+	border-radius: 4px;
+	-moz-box-border-radius: 4px;
+	-webkit-box-border-radius: 4px;
+}
+
+/* misc semantics */
+
+/* main should not be visible if it cannot render */
+main {
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+	background-color: black;
+	background-image: url('../img/main_test.jpg');
+	box-shadow:inset 0 15px 5px -16px #111;
+	max-height: 650px;
+	height: 60vh;
+}
+
+/* general id section */
+
+/*
+#vsl {
+	flex: 2;
+	background-color: #1A284D;
+	color: #7999AA;
+	padding: 2em;
+}
+*/
+
+/* general class section */
+
+.section1 {
+	flex: 1;
+	background-color: #1A284D;
+	color: #7999AA;
+	padding: 2em;
+	line-height: 1.5em;
+}
+
+.section2 {
+	flex: 2;
+	background-color: #FFF;
+	color: #000;
+	padding: 2em;
+	line-height: 1.5em;
+}
+
+.portfolioRow {
+	-moz-column-count: 5;
+	-webkit-column-count: 5;
+	column-count: 5;
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	column-gap: 2em;
+	max-height: 245px;
+	margin-left: 10em;
+}
+
+.portfolioBox {
+	width: 150px;
+	height: 175px;
+	padding-top: 2em;
+}
+
+.portfolioBox p {
+	height: 150px;
+}
+
+.outline {
+	border: 1px solid black;
+}
+
+.contactUs {
+	flex: 1;
+	background-color: #FFF;
+	color: #000;
+	padding: 2em;
+    box-shadow:inset 0 15px 5px -16px #111;
+	font-size: 1em;
+}
+
+.socialIcons {
+	text-align: center;
+}
+
+.urlLink {
+	text-decoration: none;
+	color: #555555;
+}
+
+.exp {
+	padding-bottom: 1.5em;
+}
