@@ -27,15 +27,21 @@
 			<div class="portfolioRow">
 				
 				<!-- Box 1 -->
-				<div class="portfolioBox">
-				<p>	
-					<a href="https://codepen.io/Watsonian/pen/WxvgRY">
-						<img src="/img/2016_Anchor_Point_Webpage.png" width="150px" height="150px" class="outline"/>
-					</a>
-				</p>		
-
-				<!-- put text here to display on image on rollover (p element?) -->
-				
+				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipStart">
+						<div class="front">
+							<p>	
+								<a href="https://codepen.io/Watsonian/pen/WxvgRY">
+									<img src="/img/2016_Anchor_Point_Webpage.png" width="150px" height="150px" class="outline"/>
+								</a>
+							</p>
+						</div>
+						<div class="back">
+							<p>
+								This is an example of a landing page with navigational anchor points.
+							</p>
+						</div>
+					</div>
 				</div>				
 				
 				<!-- Box 2 -->
