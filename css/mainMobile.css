@@ -245,6 +245,56 @@ main {
 	position: relative;
 }
 
+/* portfolio page */
+
+.portfolioRow {
+	-moz-column-count: 5;
+	-webkit-column-count: 5;
+	column-count: 5;
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	column-gap: 2em;
+	max-height: 245px;
+	margin-left: 10em;
+}
+
+.portfolioBox {
+	padding-top: 2em;
+	border: 1px black solid;
+}
+
+.portfolioBox:hover .flipStart, .portfolioBox.hover .flipStart {
+	transform: rotateY(180deg);
+}
+
+.portfolioBox, .front, .back {
+	width: 150px;
+	height: 150px;
+}
+
+.flipStart {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+	background-color: #fff;
+}
+
 /* general id section */
 
 /* 
@@ -274,30 +324,6 @@ main {
 	color: #000;
 	padding: 2em;
 	line-height: 2em;
-}
-
-.portfolioRow {
-	-moz-column-count: 1;
-	-webkit-column-count: 1;
-	column-count: 1;
-	-moz-column-gap: 2em;
-	-webkit-column-gap: 2em;
-	column-gap: 2em;
-	margin-left: 5em;
-}
-
-.portfolioBox {
-	width: 150px;
-	height: 175px;
-	padding-top: 1em;
-}
-
-.portfolioBox p {
-	height: 150px;
-}
-
-.outline {
-	border: 1px solid black;
 }
 
 .contactUs {
