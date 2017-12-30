@@ -26,7 +26,43 @@
 			<!-- Row One -->
 			<div class="portfolioRow">
 				
-				<!-- Box 1 -->
+				<!-- Box 1  -->	
+				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipStart">
+						<div class="front">
+							<p>
+								<a href="https://codepen.io/Watsonian/pen/gLmyQv">
+									<img src="/img/wiki.png" width="150px" height="150px" />
+								</a>
+							</p>
+						</div>
+						<div class="back">
+							<p>
+								Wikipedia's RestAPI for search results, using JSON return to show descriptions with URL links.
+							</p>
+						</div>
+					</div>
+				</div> 					 			
+				
+				<!-- Box 2  -->	
+				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
+					<div class="flipStart">
+						<div class="front">
+							<p>
+								<a href="https://codepen.io/Watsonian/pen/ObZQXr">
+									<img src="/img/Glitch_White_RGB.png" width="150px" height="150px" />
+								</a>
+							</p>
+						</div>
+						<div class="back">
+							<p>
+								I use Twitch.tv's RestAPI to show who is online / offline on their website out of pre-defined users.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Box 3 -->
 				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
 					<div class="flipStart">
 						<div class="front">
@@ -44,91 +80,6 @@
 					</div>
 				</div>				
 				
-				<!-- Box 2 -->
-				<div class="portfolioBox">
-				<p>
-					<a href="https://codepen.io/Watsonian/pen/ObZQXr">
-						<img src="/img/Glitch_White_RGB.png" width="150px" height="150px" />
-					</a>
-				</p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>
-				
-				<!-- Box 3 -->
-				<div class="portfolioBox">
-				<p>
-					<a href="https://codepen.io/Watsonian/pen/gLmyQv">
-						<img src="/img/wiki.png" width="150px" height="150px" />
-					</a>
-				</p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>			
-				
-				<!-- Box 4 -->
-				<div class="portfolioBox">
-				<p></p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>	
-				
-				<!-- Box 5 -->
-				<div class="portfolioBox">
-				<p></p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>
-				
-			</div>
-			
-			<!-- Row Two -->
-			<div class="portfolioRow">
-			
-				<!-- Box 1 -->
-				<div class="portfolioBox">
-				<p></p>
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>
-				
-				<!-- Box 2 -->
-				<div class="portfolioBox">
-				<p></p>				
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>	
-				
-				<!-- Box 3 -->
-				<div class="portfolioBox">
-				<p></p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>			
-				
-				<!-- Box 4 -->
-				<div class="portfolioBox">
-				<p></p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>	
-								
-				<!-- Box 5 -->
-				<div class="portfolioBox">
-				<p></p>		
-				<!-- define img. To be created. Screenshot of decent size. -- >
-				<!-- put text here to display on image on rollover (p element?) -->
-				
-				</div>
-			
 			</div>
 			
 		</section>
