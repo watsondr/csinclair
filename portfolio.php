@@ -23,12 +23,10 @@
 		<section class="section1">
 			<h2>Portfolio Showcase</h2>
 
-			<!-- Row One -->
 			<div class="portfolioRow">
 				
 				<!-- Box 1  -->	
-				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipStart">
+				<div class="portfolioBox">
 						<div class="front">
 							<p>
 								<a href="https://codepen.io/Watsonian/pen/gLmyQv">
@@ -37,16 +35,14 @@
 							</p>
 						</div>
 						<div class="back">
-							<p>
-								Wikipedia's RestAPI for search results, using JSON return to show descriptions with URL links.
-							</p>
+								<a href="https://codepen.io/Watsonian/pen/gLmyQv">							
+									Wikipedia's RestAPI for search results, using JSON return to show descriptions with URL links.
+								</a>
 						</div>
-					</div>
 				</div> 					 			
 				
 				<!-- Box 2  -->	
-				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipStart">
+				<div class="portfolioBox">
 						<div class="front">
 							<p>
 								<a href="https://codepen.io/Watsonian/pen/ObZQXr">
@@ -55,16 +51,14 @@
 							</p>
 						</div>
 						<div class="back">
-							<p>
-								I use Twitch.tv's RestAPI to show who is online / offline on their website out of pre-defined users.
-							</p>
+								<a href="https://codepen.io/Watsonian/pen/ObZQXr">							
+									I use Twitch.tv's RestAPI to show who is online / offline on their website out of pre-defined users.
+								</a>
 						</div>
-					</div>
 				</div>
 				
 				<!-- Box 3 -->
-				<div class="portfolioBox" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipStart">
+				<div class="portfolioBox">
 						<div class="front">
 							<p>	
 								<a href="https://codepen.io/Watsonian/pen/WxvgRY">
@@ -73,11 +67,10 @@
 							</p>
 						</div>
 						<div class="back">
-							<p>
+							<a href="https://codepen.io/Watsonian/pen/WxvgRY">
 								This is an example of a landing page with navigational anchor points.
-							</p>
+							</a>
 						</div>
-					</div>
 				</div>				
 				
 			</div>
