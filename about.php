@@ -12,7 +12,7 @@
 		
 		<!-- section one -->
 		<section class="section1">
-			<p>About - so you can understand a little about what I have done in my spare time! Sometimes I find it hard to talk about what I have done or what I am up to, so making a list was the best way for me.</p><br />
+			<p>Sometimes I find it hard to talk about what I have done or what I am up to, so making a list was the best way for me.</p><br />
 			<p>I live in Melbourne, Australia where I am a huge football (soccer) fan and participate actively in a growing family life. Sometimes I play video games or even read during my down time if I am not working on my personal projects.</p><br />
 			<p>Please <a href="/contact" class="urlLink">come here</a> to contact me directly, I would love to talk about anything of interest or hear feedback.</p>
 		</section>
@@ -36,9 +36,12 @@
 				<li>Competently perform full stack developer duties.</li>
 				<li>Finish Free Code Camp -  <a href="https://www.freecodecamp.org/watsondr" class="urlLink">check out my progress</a>!</li>
 				<li>Learn ActiveDirectory.</li>
+				<li>Learn React and apply to a project.</li>
+				<li>Learn MongoDB and apply to a project.</li>
 			</ul>
 			<h4>Misc. Skills</h4>
 			<ul>
+				<li>Commit to and finish the 100 days of code challenge. Started on 2nd January 2018, <a href="https://github.com/watsondr/100-days-of-code" class="urlLink">you can follow my progress</a> over on GitHub!
 				<li>Host a Podcast series.</li>
 				<li>Create a series of videos for YouTube.</li>
 				<li>Write a primer on Blockchain.</li>
@@ -48,7 +51,6 @@
 			</ul>
 			<h4>Feats</h4>
 			<ul>
-				<li>Go Bungee Jumping. As someone scared of heights, this is a big one!</li>
 				<li><s>Travel Overseas</s> - Been to the USA, Canada [2014/15] and Japan [2016] with my wife.</li>
 				<li>Run a 5K marathon.</li>
 			</ul>
