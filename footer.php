@@ -1,9 +1,6 @@
 		<!-- 
 		This is a required file for the website
-		It handles the navigation menu
-		V1.0 written 21/09/2017
-		
-		COLOUR SCHEME: grey or near black texture with white text.
+		It handles the footer element of the website
 		-->
 		
 		<footer>
@@ -20,10 +17,11 @@
 						You can find me elsewhere in these areas.
 					</p>
 					<div class="socialIcons">
-						<a href="https://www.freecodecamp.org/watsondr" target="_blank"><i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i></a>
-						<a href="https://www.linkedin.com/in/campbellsinclair92/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-						<a href="https://github.com/watsondr" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-						<a href="https://codepen.io/Watsonian" target="_blank"><i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.freecodecamp.org/watsondr" target="_blank"><i class="fab fa-free-code-camp fa-2x" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/campbellsinclair92/" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+						<a href="https://github.com/watsondr" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+						<a href="https://codepen.io/Watsonian" target="_blank"><i class="fab fa-codepen fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/Watsonian_" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class="footerBottom">
