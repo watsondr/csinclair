@@ -30,7 +30,7 @@
 						<div class="front">
 							<p>
 								<a href="https://codepen.io/Watsonian/pen/gLmyQv">
-									<img src="/img/wiki.png" width="150px" height="150px" />
+									<i class="fab fa-wikipedia-w fa-9x" aria-hidden="true"></i>
 								</a>
 							</p>
 						</div>
@@ -46,7 +46,7 @@
 						<div class="front">
 							<p>
 								<a href="https://codepen.io/Watsonian/pen/ObZQXr">
-									<img src="/img/Glitch_White_RGB.png" width="150px" height="150px" />
+									<i class="fab fa-twitch fa-9x" aria-hidden="true"></i>
 								</a>
 							</p>
 						</div>
@@ -62,7 +62,7 @@
 						<div class="front">
 							<p>	
 								<a href="https://codepen.io/Watsonian/pen/WxvgRY">
-									<img src="/img/2016_Anchor_Point_Webpage.png" width="150px" height="150px" class="outline"/>
+									<i class="fas fa-anchor fa-9x" aria-hidden="true"></i>
 								</a>
 							</p>
 						</div>
