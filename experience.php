@@ -26,6 +26,14 @@
 			
 			<h3>Experience</h3>
 			<ul>
+			
+			<li>CSinclair.me web master : Nov 2017 - Present</li>
+			<p class="exp">
+			Originally started development in September 2017, I completed the website after taking a break from personal projects in early 2017.<br />
+			This site was created from scratch and once version 1 was finished, changes were tracked using a public GitHub repository.<br />
+			Purpose is to showcase my current status, achievements and projects that use a variety of technologies of interest.<br />
+			</p>
+			
 			<li>Support &amp; Administration at Share Wealth Systems : Dec 2013 - Present</li>
 			<p class="exp">
 			Primarily a technical support role, ensuring the desktop product is operational on end user PCs pose unique challenges often. <br />
