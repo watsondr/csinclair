@@ -150,7 +150,7 @@ footer {
 .footerContainer {
 	text-align: center;
 	margin: 0 15% 0 15%;
-	width: 60%;
+	width: 65%;
 }
 
 
@@ -159,7 +159,7 @@ footer {
 	padding-bottom: 1em;
 }
 
-.fa {
+.svg-inline--fa {
 	color: #FFF;
 	padding-right: 0.25em;
 	text-shadow: 3px 3px 5px #212020;
