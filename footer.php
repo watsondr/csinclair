@@ -1,6 +1,6 @@
 		<!-- 
 		This is a required file for the website
-		It handles the footer element of the website
+		It handles the footer element for each page
 		-->
 		
 		<footer>
@@ -8,7 +8,7 @@
 				<div class="footerLeft">
 					<h2>Quick Links</h2>
 					<p>
-						Get in touch with me via my <a href="/contact" class="footerLink">contact page</a>. It can be about what I am up to or questions around how I can help you, perhaps?
+						Get in touch with me via my <a href="/contact.php" class="footerLink">contact page</a>. It can be about what I am up to or questions around how I can help you, perhaps?
 					</p>
 				</div>
 				<div class="footerRight">
@@ -21,12 +21,11 @@
 						<a href="https://www.linkedin.com/in/campbellsinclair92/" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
 						<a href="https://github.com/watsondr" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
 						<a href="https://codepen.io/Watsonian" target="_blank"><i class="fab fa-codepen fa-2x" aria-hidden="true"></i></a>
-						<a href="https://twitter.com/Watsonian_" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class="footerBottom">
 					<p>
-						<small>Designed and created by Campbell Sinclair &copy; 2017</small>
+						<small>Designed and created by Campbell Sinclair &copy; 2018</small>
 					</p>
 					<p>
 						<small>HTML5 | CSS3 | PHP | JavaScript</small>
