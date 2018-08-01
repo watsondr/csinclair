@@ -1,12 +1,12 @@
 		<meta charset="UTF-8">
-		<meta name="viewport" content="initial-scale=1" />
+		<!-- <meta name="viewport" content="initial-scale=1" /> -->
 		
 		<title>Campbell Sinclair Personal Webpage</title>
 		
-		<!-- for desktops & laptops -->
+		<!-- for desktops & laptops 
 		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="/css/main.css"  />
-		<!-- for mobile -->
-		<link rel="stylesheet" media="screen and (max-width: 1023px)" href="/css/mainMobile.css"  />
+		<!-- for mobile
+		<link rel="stylesheet" media="screen and (max-width: 1023px)" href="/css/mainMobile.css"  /> -->
 		<!-- incoming -->
 		<link rel="stylesheet" media="screen" href="/css/root_media_edt.css" />
 		
