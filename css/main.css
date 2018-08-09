@@ -189,11 +189,10 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 
 main {
 	text-align: center;
-	margin-top: 5%;
 	color: white;
 	background-color: black;
 	background-image: url('../img/main_test.jpg');
-	box-shadow:inset 0 15px 5px -16px #111;
+	box-shadow:inset 0 15px 5px -16px #fff;
 	max-height: 650px;
 	height: 60vh;
 }
