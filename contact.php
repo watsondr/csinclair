@@ -31,8 +31,6 @@
 		?>
 		
 		
-		
-		<!-- We desire a change from the usual for contact to help differentiate the page -->
 		<section class="contactUs">
 		
 			<h2>Get in touch!</h2>
@@ -48,7 +46,7 @@
 			<!-- Name -->
 				<p class="name">
 					<label for="name">Full Name</label> <br />
-					<input type="text" name="name" id="name" placeholder="Enter your name here" />
+					<input type="text" name="name" id="name" placeholder="Enter your name here" autofocus/>
 				</p>
 				
 			<!-- Email -->
