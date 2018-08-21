@@ -24,9 +24,14 @@ $(document).ready(function() {
             $("#logo").toggleClass("menuUp menuDown");
         }
     }
-    else {
-        $("header > nav").css("display", "none");
-    }
+	/* Bug fix August 2018 - menu disappearing when re-sized.
+	
+	Needs to be looked at with media calls revamp branch now.
+	Was previously setting the "header > nav" element to display: none
+		in situations where the window was resized beyond 1023px width
+		as part of else statment. Now reverses the mobile response.
+	*/
+    if($( window ).width() > "1023" ) $("header > nav").css("display","");
 });
 	
 	$("header > nav > ul > li > a").click(function(e) {
