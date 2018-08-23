@@ -12,9 +12,9 @@
 		
 		<!-- section one -->
 		<section class="section1">
-			<p>Professionally, my main experience is in the financial and insurance sectors via IT and help desk roles.</p><br />
-			<p>Largely my web or development experience is professionally exposed to small roles in projects, I have been building an understanding of code and technical concepts outside of work.</p><br />
-			<p>While I was at university I did a 1 year internship at a major bank as a Business Analyst. This was active participation in the agile methodology where I could apply my system design learnings from my course &amp; the object orientated style of development, within an active software development lifecycle.
+			<p>Professionally, my core experience is in the financial and insurance sectors via IT help desk roles.</p>
+			<p>I also have web development experience, and am building an understanding of programming and technical concepts outside of day to day work.</p>
+			<p>While I was at university I did a 1 year internship at a major bank as a Business Analyst. This was active participation in the agile methodology where I could apply system design learnings, within an active software development lifecycle.</p>
 		</section>
 		
 		<!-- section two -->
@@ -27,21 +27,24 @@
 			<h3>Experience</h3>
 			<ul>
 			
-			<li>CSinclair.me web master : Nov 2017 - Present</li>
+			<li>CSinclair.me web master : 2017 - Present</li>
 			<p class="exp">
-			Originally started development in September 2017, I completed the website after taking a break from personal projects in early 2017.<br />
+			Originally started development in September 2017, I completed the website and published live in November 2017.<br />
 			This site was created from scratch and once version 1 was finished, changes were tracked using a public GitHub repository.<br />
 			Purpose is to showcase my current status, achievements and projects that use a variety of technologies of interest.<br />
 			</p>
 			
-			<li>Support &amp; Administration at Share Wealth Systems : Dec 2013 - Present</li>
+			<li>Support &amp; Administration at Share Wealth Systems : 2013 - Present</li>
 			<p class="exp">
-			Primarily a technical support role, ensuring the desktop product is operational on end user PCs pose unique challenges often. <br />
-			There is account privledge activation work, reconciling the automated order processes and manually intervening when technical errors occur for customers.<br />
-			This was done via email and phone support. Also occassional projects of technical nature using Windows, PHP and some client side scripts maintain business functions such as the website.<br />
+			I am the lead for phone and e-mail support for over 1,000 customers in Australia and internationally.<br />
+			Further responsibilities include:<br /><br />
+			>> Product operation assistance, technical support for iOS, Andoird and Windows.<br />
+			>> Supplying technical advice for customers who need to use the software while away from home.<br />
+			>> Installation of Virtual Machines on Mac hosts via Parallels and VMWare.<br /><br />
+			This role of supporting end users to a paid product for a demographic of 40 to 60 year olds has provided me perspective on what makes tech solutions functional and accessible.
 			</p>
 			
-			<li>Junior Business Analyst</li>
+			<li>Junior Business Analyst at NAB Wealth : 2012-2013</li>
 			<p class="exp">
 			A part of an agile software delivery team in Insurance Technology; my responsibilities included requirements gathering and delivery to developers, help with tracking the progress of requirement development and performing administration work on requirement backlogs and system defect lists.<br />
 			In addition I helped configure the personal insurance underwriting system question set including resolving outstanding defects.<br />
