@@ -3,7 +3,10 @@
 		It handles the footer element for each page
 		-->
 		
+		<a href='#' onclick='clickEvent()' id="back-to-top"><i class="fa fa-angle-double-up fa-2x" aria-hidden='true'></i></a>
+		
 		<footer>
+		
 			<div class="footerContainer">
 				<div class="footerLeft">
 					<h2>Quick Links</h2>
